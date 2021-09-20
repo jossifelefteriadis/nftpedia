@@ -1,0 +1,19 @@
+{
+  "name": "nftpedia",
+  "version": "1.0.0",
+  "description": "NFTPEDIA",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jossifelefteriadis/nftpedia.git"
+  },
+  "author": "Jossif E",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jossifelefteriadis/nftpedia/issues"
+  },
+  "homepage": "https://github.com/jossifelefteriadis/nftpedia#readme"
+}
