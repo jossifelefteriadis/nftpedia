@@ -1,11 +1,11 @@
 import React from "react";
 import "./App.css";
-import StartPage from "./components/Navbar";
+import PageContainer from "./components/PageContainer";
 
 function App() {
   return (
     <section className="App">
-      <StartPage />
+      <PageContainer />
     </section>
   );
 }
