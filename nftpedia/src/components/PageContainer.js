@@ -1,7 +1,11 @@
 import React from "react";
 
-export default class StartPage extends React.Component {
+export default class PageContainer extends React.Component {
   render() {
-    return <section></section>;
+    return (
+      <section className="pagecontainer">
+        <p>TEST</p>
+      </section>
+    );
   }
 }

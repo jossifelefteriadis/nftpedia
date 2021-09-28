@@ -41,3 +41,9 @@
   font-family: "Montserrat", sans-serif;
   margin: 0 30px;
 }
+
+.pagecontainer {
+  display: flex;
+  justify-content: center;
+  margin-top: 80px;
+}
