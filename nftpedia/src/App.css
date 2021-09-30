@@ -44,6 +44,29 @@
 
 .pagecontainer {
   display: flex;
+  flex-direction: column;
   justify-content: center;
-  margin-top: 80px;
+  align-items: center;
+  margin-top: 70px;
+  padding-top: 30px;
+}
+
+.alphabet {
+  /* TODO Hide below 570 screenwidth */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  /* align-content: center; */
+  width: 60%;
+}
+
+.letter {
+  /* display: inline-block; */
+  font-weight: bold;
+  width: 25px;
+  border-left: 3px solid #20a6c1;
+  border-bottom: 3px solid #20a6c1;
+  padding-left: 5px;
+  margin-bottom: 10px;
+  cursor: pointer;
 }
