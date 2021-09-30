@@ -9,7 +9,7 @@ export default class Navbar extends React.Component {
           <a
             href="http://www.twitter.com/ElefteriadisJ"
             target="_blank"
-            rel="noreferrer"
+            rel="noopener noreferrer"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
