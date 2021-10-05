@@ -1,11 +1,19 @@
 import React from "react";
+import { Link } from "react-router-dom";
+
+// import About from "./About";
 
 export default class Navbar extends React.Component {
   render() {
     return (
       <section>
         <section className="navbar">
-          <span className="navbar__span">OM OSS</span>
+          <span className="navbar__span">
+            <Link to="/">Hem</Link>
+          </span>
+          <span className="navbar__span">
+            <Link to="/omoss">OM OSS</Link>
+          </span>
           <a
             href="http://www.twitter.com/ElefteriadisJ"
             target="_blank"
