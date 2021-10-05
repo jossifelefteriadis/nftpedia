@@ -70,3 +70,51 @@
   margin-bottom: 10px;
   cursor: pointer;
 }
+
+.startpage {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: space-evenly;
+  margin-top: 50px;
+  width: 70%;
+  height: 400px;
+  /* background-color: red; */
+}
+
+.col {
+  width: 280px;
+  background-color: #ffffff;
+  border: 1px solid #8f8f8f;
+  border-radius: 25px 25px 5px 5px;
+  /* box-shadow: -15px 15px rgba(108, 108, 108, 0.5); */
+  padding: 10px;
+}
+
+.startpage__p--description {
+  line-height: 130%;
+}
+
+.firstPage_img {
+  width: 100%;
+  height: auto;
+  border-radius: 20px 20px 0 0;
+}
+
+.startpage__p--title {
+  color: #000000;
+  text-align: center;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+p {
+  text-align: left;
+  margin-top: 20px;
+  line-height: 120%;
+}
+
+.description-container {
+  width: 50%;
+  text-align: center;
+  margin-top: 50px;
+}
