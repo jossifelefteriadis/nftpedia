@@ -1,12 +1,13 @@
 import React from "react";
 
 import beepleNft from "../images/beeple_nft.jpeg";
+import useNft from "../images/use_nft.jpg";
 
 const StartPage = () => (
   <section className="startpage">
     <section className="startpage__box">
       {/* <p>Den ena en bild på några nft's med rubrik nft historia</p> */}
-      <img src={beepleNft} alt="TEAM WHALE" className="firstPage_img" />
+      <img src={beepleNft} alt="Beeple NFT" className="firstPage_img" />
       <p className="startpage__p--title">HISTORIAN BAKOM NFT</p>
       <p className="startpage__p--description">
         Hur och när startade sensationen kring NFT (non-fungible token), och
@@ -15,7 +16,12 @@ const StartPage = () => (
       </p>
     </section>
     <section className="startpage__box">
-      2
+      <img
+        src={useNft}
+        alt="HOW CAN AN NFT BE USED?"
+        className="firstPage_img"
+      />
+      <p className="startpage__p--title">VAD HAR NFT FÖR ANVÄNDNINGSOMRÅDEN?</p>
       <p>
         En bild/länken kan handla om 'varför nft' och olika användningsområden
         (pfp, play earn, yatch club, osv)
