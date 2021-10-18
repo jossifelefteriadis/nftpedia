@@ -16,6 +16,8 @@ const StartPage = () => (
       </p>
     </section>
     <section className="startpage__box">
+      {/* En bild/länken kan handla om 'varför nft' och olika användningsområden
+        (pfp, play earn, yatch club, osv) */}
       <img
         src={useNft}
         alt="HOW CAN AN NFT BE USED?"
@@ -23,8 +25,9 @@ const StartPage = () => (
       />
       <p className="startpage__p--title">VAD HAR NFT FÖR ANVÄNDNINGSOMRÅDEN?</p>
       <p>
-        En bild/länken kan handla om 'varför nft' och olika användningsområden
-        (pfp, play earn, yatch club, osv)
+        NFT's kan har flera olika användningsområden, funktioner, och syften -
+        beroendes på skaparens mål med sitt NFT. Varför handlar man NFT's, och
+        vad har de för olika användningsområden?
       </p>
     </section>
     <section className="startpage__box">3</section>
