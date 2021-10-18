@@ -2,6 +2,7 @@ import React from "react";
 
 import beepleNft from "../images/beeple_nft.jpeg";
 import useNft from "../images/use_nft.jpg";
+import cryptoWallets from "../images/crypto_wallets.jpg";
 
 const StartPage = () => (
   <section className="startpage">
@@ -30,7 +31,24 @@ const StartPage = () => (
         vad har de för olika användningsområden?
       </p>
     </section>
-    <section className="startpage__box">3</section>
+    <section className="startpage__box">
+      <img
+        src={cryptoWallets}
+        alt="Crypto wallets for NFT"
+        className="firstPage_img"
+      />
+
+      <p className="startpage__p--title">
+        VAD ANVÄNDS WALLETS TILL - BEHÖVER DU EN?
+      </p>
+      <p>
+        Det finns både digitala och fysiska hårdvaruplånböcker som gör det
+        säkert att skydda sina kryptovalutor och NFT's.
+        <br />
+        <br />
+        Håll koll på vilka som finns och ifall du behöver en wallet.
+      </p>
+    </section>
   </section>
 );
 
