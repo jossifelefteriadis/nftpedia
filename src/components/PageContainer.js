@@ -6,6 +6,7 @@ import Alphabet from "./Alphabet";
 import About from "./About";
 
 import StartPage from "./StartPage";
+import NftDescription from "./NftDescription";
 // import Airdrop from "./words/Airdrop";
 
 export default class PageContainer extends React.Component {
@@ -23,6 +24,7 @@ export default class PageContainer extends React.Component {
           <Route path="/">
             <Alphabet />
             <StartPage />
+            <NftDescription />
           </Route>
 
           {/* <p>3 kolumner.</p>

@@ -1,7 +1,7 @@
 import React from "react";
 
 const Airdrop = () => (
-  <section className="description-container">
+  <section className="word-description-container">
     <h1>AIRDROP</h1>
     <p>
       En Airdrop, i både NFT och kryptosammanhang sker oftast i
