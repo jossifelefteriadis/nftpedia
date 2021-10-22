@@ -37,7 +37,7 @@ const StartPage = () => (
         alt="Crypto wallets for NFT"
         className="firstPage_img"
       />
-
+      {/* En bild/länken kan handla om olika wallets */}
       <p className="startpage__p--title">
         VAD ANVÄNDS WALLETS TILL - BEHÖVER DU EN?
       </p>
