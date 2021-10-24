@@ -144,6 +144,10 @@
 }
 
 @media only screen and (min-width: 571px) {
+  .pagecontainer {
+    padding-top: 30px;
+  }
+
   .alphabet {
     display: flex;
     flex-wrap: wrap;
@@ -213,12 +217,13 @@
 
   .startpage {
     display: flex;
+    flex-direction: row;
     justify-content: space-evenly;
     align-items: space-evenly;
     margin-top: 50px;
-    width: 70%;
+    width: 80%;
     height: 400px;
-    /* background-color: red; */
+    /* background-color: blue; */
   }
 
   .startpage__box {
