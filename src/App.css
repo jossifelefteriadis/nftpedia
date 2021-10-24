@@ -30,13 +30,13 @@
     background: 
     /* radial-gradient(rgba(255, 255, 255, 1), rgba(255, 255, 255, 0)), */ radial-gradient(
         circle at 50%,
-        rgba(255, 255, 255) 20px,
+        rgba(255, 255, 255) 350px,
         rgba(255, 255, 255, 1),
         rgba(255, 255, 255, 0)
       ),
       url("./images/nftpedia_background1.jpg");
     background-size: auto;
-    min-height: 300vh;
+    min-height: 100vh;
   }
 
   .navbar {
