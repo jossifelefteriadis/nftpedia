@@ -25,7 +25,7 @@
   min-height: 100vh;
 }
 
-@media only screen and (max-width: 570px) {
+@media only screen and (min-width: 250px) {
   .App {
     background: 
     /* radial-gradient(rgba(255, 255, 255, 1), rgba(255, 255, 255, 0)), */ radial-gradient(
@@ -144,6 +144,26 @@
 }
 
 @media only screen and (min-width: 571px) {
+  .alphabet {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 60%;
+  }
+
+  .startpage__box {
+    width: 350px;
+    background-color: #ffffff;
+    border: 1px solid #8f8f8f;
+    border-radius: 25px 25px 5px 5px;
+    /* box-shadow: -15px 15px rgba(108, 108, 108, 0.5); */
+    padding: 10px;
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
   .navbar {
     display: flex;
     justify-content: center;
