@@ -144,6 +144,18 @@
 }
 
 @media only screen and (min-width: 571px) {
+  .App {
+    background: 
+    /* radial-gradient(rgba(255, 255, 255, 1), rgba(255, 255, 255, 0)), */ radial-gradient(
+        circle at 50%,
+        rgba(255, 255, 255) 700px,
+        rgba(255, 255, 255, 1),
+        rgba(255, 255, 255, 0)
+      ),
+      url("./images/nftpedia_background1.jpg");
+    background-size: cover;
+    min-height: 100vh;
+  }
   .pagecontainer {
     padding-top: 30px;
   }
@@ -168,6 +180,19 @@
 }
 
 @media only screen and (min-width: 1200px) {
+  .App {
+    background: 
+    /* radial-gradient(rgba(255, 255, 255, 1), rgba(255, 255, 255, 0)), */ radial-gradient(
+        circle at 50%,
+        rgba(255, 255, 255) 90px,
+        rgba(255, 255, 255, 1),
+        rgba(255, 255, 255, 0)
+      ),
+      url("./images/nftpedia_background1.jpg");
+    background-size: cover;
+    min-height: 100vh;
+  }
+
   .navbar {
     display: flex;
     justify-content: center;
