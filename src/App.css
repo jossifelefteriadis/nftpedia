@@ -258,6 +258,7 @@
     border-radius: 25px 25px 5px 5px;
     /* box-shadow: -15px 15px rgba(108, 108, 108, 0.5); */
     padding: 10px;
+    padding-bottom: 20px;
   }
 
   .firstPage_img {
@@ -298,5 +299,11 @@
     width: 50%;
     text-align: center;
     margin-top: 50px;
+  }
+}
+
+@media only screen and (min-width: 1400px) {
+  .startpage__box {
+    padding-bottom: 30px;
   }
 }
