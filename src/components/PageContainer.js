@@ -9,6 +9,8 @@ import StartPage from "./StartPage";
 import NftDescription from "./NftDescription";
 // import Airdrop from "./words/Airdrop";
 
+import A from "./letter/A";
+
 export default class PageContainer extends React.Component {
   render() {
     return (
@@ -18,6 +20,9 @@ export default class PageContainer extends React.Component {
           {/* <Route path="/airdrop">
             <Airdrop />
           </Route> */}
+          <Route path="/A">
+            <A />
+          </Route>
           <Route path="/omoss">
             <About />
           </Route>
