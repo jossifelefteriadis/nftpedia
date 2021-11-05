@@ -29,7 +29,7 @@ const About = () => (
       och är en fullstack utvecklare med stort intresse inom bland annat krypto-
       och NFT-världen. Målet med NFTPEDIA är att, allt eftersom NFT's blir mer
       populära och mer användbara i vår vardag, möta det framtida behovet att
-      kunna första och fördjupa sig inom exempelvis begreppen som finns.
+      kunna förstå och fördjupa sig inom exempelvis begreppen som finns.
       <br />
       <br />
       Vill du bidra till att förbättra ett begrepps beskrivning, eller saknar du
