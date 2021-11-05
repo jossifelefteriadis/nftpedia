@@ -2,7 +2,7 @@ import React from "react";
 
 const About = () => (
   <section className="about">
-    <h2>OM NFTPEDIA</h2>
+    <h2 className="about__title">OM NFTPEDIA</h2>
     <p>
       NFTPEDIA skapades eftersom efterfrågan på NFT (non-fungible token) har
       ökat väldigt mycket sen början av 2021 och eftersom majoriteten av de som
@@ -15,18 +15,34 @@ const About = () => (
     </p>
     <br />
     <br />
-    <h2>VILKA ÄR VI?</h2>
+    <h2 className="about__title">VILKA ÄR VI?</h2>
     <p>
-      Jag som tagit fram, och driver NFTPEDIA heter Jossif Elefteriadis och är
-      en fullstack utvecklare med stort intresse inom bland annat krypto- och
-      NFT-världen. Målet med NFTPEDIA är att, allt eftersom NFT's blir mer
+      Jag som tagit fram, och driver NFTPEDIA heter{" "}
+      <a
+        href="http://www.twitter.com/ElefteriadisJ"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="title--link"
+      >
+        Jossif Elefteriadis
+      </a>{" "}
+      och är en fullstack utvecklare med stort intresse inom bland annat krypto-
+      och NFT-världen. Målet med NFTPEDIA är att, allt eftersom NFT's blir mer
       populära och mer användbara i vår vardag, möta det framtida behovet att
       kunna första och fördjupa sig inom exempelvis begreppen som finns.
       <br />
       <br />
       Vill du bidra till att förbättra ett begrepps beskrivning, eller saknar du
-      en term? Hör gärna av dig via twitter så ser vi till att den kommer med på
-      hemsidan.
+      en term? Hör gärna av dig via{" "}
+      <a
+        href="http://www.twitter.com/ElefteriadisJ"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="title--link"
+      >
+        twitter
+      </a>{" "}
+      så ser vi till att den kommer med på hemsidan.
     </p>
   </section>
 );
