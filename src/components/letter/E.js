@@ -12,7 +12,7 @@ const E = () => (
       <Link to="/ETHER">ETHER</Link>
     </p>
     <p className="letter--word">
-      <Link to="/ETHERSCAN">Etherscan</Link>
+      <Link to="/ETHERSCAN">ETHERSCAN</Link>
     </p>
   </section>
 );
