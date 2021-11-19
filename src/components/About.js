@@ -42,7 +42,7 @@ const About = () => (
       >
         twitter
       </a>{" "}
-      så ser vi till att den kommer med på hemsidan.
+      så ser vi till att det kommer med på hemsidan.
     </p>
   </section>
 );

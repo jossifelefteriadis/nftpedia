@@ -6,7 +6,7 @@ const P = () => (
     <h1>P</h1>
     <br />
     <p className="letter--word">
-      <Link to="/P2E">P2e</Link>
+      <Link to="/P2E">P2E</Link>
     </p>
     <p className="letter--word">
       <Link to="/PAPER-HANDS">PAPER HANDS</Link>
