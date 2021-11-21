@@ -1,16 +1,20 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-// import About from "./About";
+import logo from "../images/logo.png";
 
 export default class Navbar extends React.Component {
   render() {
     return (
       <section>
         <section className="navbar">
-          <span className="navbar__span">
+          <a href="http://www.nftpedia.se" rel="noopener noreferrer">
+            <img src={logo} alt="NFTPEDIA" className="logo" />
+          </a>
+          {/* <section className="logo">{logo}</section> */}
+          {/* <span className="navbar__span">
             <Link to="/">HEM</Link>
-          </span>
+          </span> */}
           <span className="navbar__span">
             <Link to="/omoss">OM OSS</Link>
           </span>

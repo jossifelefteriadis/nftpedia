@@ -2,7 +2,9 @@
 /* @import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@600;700&display=swap"); */
 /* @import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&display=swap"); */
 /* @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap"); */
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&display=swap"); */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=VT323&display=swap");
 
 * {
   margin: 0;
@@ -39,6 +41,13 @@
     min-height: 100vh;
   }
 
+  .logo {
+    position: fixed;
+    top: 24px;
+    left: -5px;
+    width: 107px;
+  }
+
   .navbar {
     display: flex;
     justify-content: center;
@@ -68,6 +77,12 @@
 
   .alphabet {
     display: none;
+  }
+
+  .dropdown {
+    width: 80px;
+    text-align: center;
+    outline: none;
   }
 
   .letter {
@@ -178,8 +193,16 @@
     background-size: cover;
     min-height: 100vh;
   }
+
   .pagecontainer {
     padding-top: 30px;
+  }
+
+  .logo {
+    position: fixed;
+    top: 15px;
+    left: 5px;
+    width: 207px;
   }
 
   .alphabet {
@@ -187,6 +210,9 @@
     flex-wrap: wrap;
     justify-content: space-evenly;
     width: 60%;
+  }
+  .dropdown {
+    display: none;
   }
 
   .startpage__box {
