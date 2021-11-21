@@ -3,6 +3,7 @@ import { Route, Switch } from "react-router-dom";
 // , Link, Switch
 
 import Alphabet from "./Alphabet";
+import Dropdown from "./Dropdown";
 import About from "./About";
 
 import StartPage from "./StartPage";
@@ -128,6 +129,7 @@ export default class PageContainer extends React.Component {
           </Route>
           <Route path="/">
             <Alphabet />
+            <Dropdown />
             <StartPage />
             <NftDescription />
           </Route>
