@@ -8,8 +8,9 @@ export default class Dropdown extends React.Component {
 
   render() {
     return (
-      <section onChange={this.redirect}>
-        <select className="dropdown">
+      <section>
+        <select className="dropdown" onChange={this.redirect}>
+          <option value="" selected disabled hidden></option>
           <option value="A">A</option>
           <option value="B">B</option>
           <option value="C">C</option>
