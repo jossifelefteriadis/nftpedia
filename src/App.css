@@ -173,11 +173,6 @@
     color: #20a6c1;
     font-weight: 600;
   }
-
-  .words {
-    width: 400px;
-    /* background-color: red; */
-  }
 }
 
 @media only screen and (min-width: 571px) {
