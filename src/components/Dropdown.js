@@ -2,9 +2,13 @@ import React from "react";
 // import { Link, useHistory } from "react-router-dom";
 
 export default class Dropdown extends React.Component {
+  redirect = (e) => {
+    window.location = `http://www.nftpedia.se/${e.target.value}`;
+  };
+
   render() {
     return (
-      <section>
+      <section onChange={this.redirect}>
         <select className="dropdown">
           <option value="A">A</option>
           <option value="B">B</option>
