@@ -70,6 +70,12 @@
     display: none;
   }
 
+  .dropdown {
+    width: 80px;
+    text-align: center;
+    outline: none;
+  }
+
   .letter {
     /* display: inline-block; */
     font-weight: bold;
@@ -187,6 +193,9 @@
     flex-wrap: wrap;
     justify-content: space-evenly;
     width: 60%;
+  }
+  .dropdown {
+    display: none;
   }
 
   .startpage__box {

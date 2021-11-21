@@ -5,7 +5,7 @@ export default class Dropdown extends React.Component {
   render() {
     return (
       <section>
-        <select>
+        <select className="dropdown">
           <option value="A">A</option>
           <option value="B">B</option>
           <option value="C">C</option>

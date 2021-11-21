@@ -9,7 +9,7 @@ export default class Navbar extends React.Component {
       <section>
         <section className="navbar">
           <span className="navbar__span">
-            <Link to="/">Hem</Link>
+            <Link to="/">HEM</Link>
           </span>
           <span className="navbar__span">
             <Link to="/omoss">OM OSS</Link>
