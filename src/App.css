@@ -43,7 +43,7 @@
 
   .logo {
     position: fixed;
-    top: 24px;
+    top: 25px;
     left: -5px;
     width: 107px;
   }
@@ -60,10 +60,11 @@
     box-shadow: 0 2px rgba(157, 157, 157, 0.2);
   }
 
-  .navbar__span {
+  .navbar__span a {
     color: #ffffff;
     font-family: "Montserrat", sans-serif;
     margin: 0 30px;
+    text-decoration: none;
   }
 
   .pagecontainer {
@@ -246,12 +247,6 @@
     top: 0;
     width: 100%;
     box-shadow: 0 2px rgba(157, 157, 157, 0.2);
-  }
-
-  .navbar__span {
-    color: #ffffff;
-    font-family: "Montserrat", sans-serif;
-    margin: 0 30px;
   }
 
   .pagecontainer {
