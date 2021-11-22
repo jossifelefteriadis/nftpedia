@@ -9,7 +9,7 @@ const StartPage = () => (
     <section className="startpage__box">
       {/* <p>Den ena en bild på några nft's med rubrik nft historia</p> */}
       <img src={beepleNft} alt="Beeple NFT" className="firstPage_img" />
-      <p className="startpage__p--title">HISTORIAN BAKOM NFT</p>
+      <p className="startpage__p--title">BAKGRUNDEN TILL NFT</p>
       <p className="startpage__p--description">
         Hur och när startade sensationen kring NFT (non-fungible token), och
         varför har det fått en så stor spridning att både kända investerare och
