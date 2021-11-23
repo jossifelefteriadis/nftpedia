@@ -6,16 +6,16 @@ const A = () => (
     <h1>A</h1>
     <br />
     <p className="letter--word">
-      <Link to="/AIRDROP">AIRDROP</Link>
+      <Link to="/airdrop">AIRDROP</Link>
     </p>
     <p className="letter--word">
-      <Link to="/APE-IN">APE-IN</Link>
+      <Link to="/ape-in">APE-IN</Link>
     </p>
     <p className="letter--word">
-      <Link to="/ALL-TIME-HIGH">ATH</Link>
+      <Link to="/all-time-high">ATH</Link>
     </p>
     <p className="letter--word">
-      <Link to="/AUTOGLYPHS">AUTOGLYPHS</Link>
+      <Link to="/autoglyphs">AUTOGLYPHS</Link>
     </p>
   </section>
 );
