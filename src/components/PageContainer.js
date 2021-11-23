@@ -9,6 +9,7 @@ import About from "./About";
 import StartPage from "./StartPage";
 import NftDescription from "./NftDescription";
 import Airdrop from "./words/Airdrop";
+import ApeIn from "./words/ApeIn";
 
 import A from "./letter/A";
 import B from "./letter/B";
@@ -45,6 +46,9 @@ export default class PageContainer extends React.Component {
           {/* <Alphabet /> */}
           <Route path="/airdrop">
             <Airdrop />
+          </Route>
+          <Route path="/ape-in">
+            <ApeIn />
           </Route>
           <Route path="/A">
             <A />
