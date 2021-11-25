@@ -10,6 +10,7 @@ import StartPage from "./StartPage";
 import NftDescription from "./NftDescription";
 import Airdrop from "./words/Airdrop";
 import ApeIn from "./words/ApeIn";
+import ATH from "./words/ATH";
 
 import A from "./letter/A";
 import B from "./letter/B";
@@ -49,6 +50,9 @@ export default class PageContainer extends React.Component {
           </Route>
           <Route path="/ape-in">
             <ApeIn />
+          </Route>
+          <Route path="/all-time-high">
+            <ATH />
           </Route>
           <Route path="/A">
             <A />
