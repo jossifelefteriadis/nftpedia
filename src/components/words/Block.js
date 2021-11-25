@@ -5,8 +5,9 @@ const Block = () => (
     <h1>Block</h1>
     <p>
       En Block kan definieras som en enda digital post skapad inom en
-      blockchain. Varje block är i princip permanent information på blockchain.
-      Varje gång ett block är 'färdigt', gör den plats åt nästa block.
+      <a href="https://www.nftpedia.se/blockchain">blockchain</a>. Varje block
+      är i princip permanent information på blockchain. Varje gång ett block är
+      'färdigt', gör den plats åt nästa block.
       <br />
       <br />
       Man kan jämföra block med en länk i en kedja.

@@ -7,8 +7,8 @@ const Blockchain = () => (
       Blockchain, eller blockkedja, är en distribuerad databas som delas bland
       många nodes (datorer). Blockchain lagrar data digitalt och är känt för sin
       säkerhet och tillförlitlighet.
-      <br />
-      I blockchain så lagras data i blocks, där varje block specifik kapacitet,
+      <br />I blockchain så lagras data i blocks, där varje{" "}
+      <a href="https://www.nftpedia.se/block">block</a> har specifik kapacitet,
       och när den är nådd så stängs det och kopplas till det föregående blocket
       - därav bildas en kedja.
       <br />
