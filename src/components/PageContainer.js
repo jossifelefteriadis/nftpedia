@@ -8,10 +8,15 @@ import About from "./About";
 
 import StartPage from "./StartPage";
 import NftDescription from "./NftDescription";
+
 import Airdrop from "./words/Airdrop";
 import ApeIn from "./words/ApeIn";
 import ATH from "./words/ATH";
 import Autoglyphs from "./words/Autoglyphs";
+
+import Bag from "./words/Bag";
+import Block from "./words/Block";
+import Blockchain from "./words/Blockchain";
 
 import A from "./letter/A";
 import B from "./letter/B";
@@ -57,6 +62,15 @@ export default class PageContainer extends React.Component {
           </Route>
           <Route path="/autoglyphs">
             <Autoglyphs />
+          </Route>
+          <Route path="/bag">
+            <Bag />
+          </Route>
+          <Route path="/block">
+            <Block />
+          </Route>
+          <Route path="/blockchain">
+            <Blockchain />
           </Route>
           <Route path="/A">
             <A />

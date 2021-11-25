@@ -16,6 +16,7 @@ const Autoglyphs = () => (
       Dessa glyphs säljs idag för ca 239Ξ (ungefär $1 075 000 - 2021-11-25)
       <br />
       <br />
+      <br />
       <b>Officiell hemsida:</b> https://www.larvalabs.com/autoglyphs
     </p>
   </section>

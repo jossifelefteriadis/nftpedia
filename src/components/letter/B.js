@@ -6,19 +6,19 @@ const B = () => (
     <h1>B</h1>
     <br />
     <p className="letter--word">
-      <Link to="/BAG">BAG</Link>
+      <Link to="/bag">BAG</Link>
     </p>
     <p className="letter--word">
-      <Link to="/BLOCK">BLOCK</Link>
+      <Link to="/block">BLOCK</Link>
     </p>
     <p className="letter--word">
-      <Link to="/BLOCKCHAIN">BLOCKCHAIN</Link>
+      <Link to="/blockchain">BLOCKCHAIN</Link>
     </p>
     <p className="letter--word">
-      <Link to="/BORED-APES-YACHT-CLUB">BORED APES YACHT CLUB</Link>
+      <Link to="/bored-apes-yacht-club">BORED APES YACHT CLUB</Link>
     </p>
     <p className="letter--word">
-      <Link to="/BOT">BOT</Link>
+      <Link to="/bot">BOT</Link>
     </p>
   </section>
 );
