@@ -11,6 +11,7 @@ import NftDescription from "./NftDescription";
 import Airdrop from "./words/Airdrop";
 import ApeIn from "./words/ApeIn";
 import ATH from "./words/ATH";
+import Autoglyphs from "./words/Autoglyphs";
 
 import A from "./letter/A";
 import B from "./letter/B";
@@ -53,6 +54,9 @@ export default class PageContainer extends React.Component {
           </Route>
           <Route path="/all-time-high">
             <ATH />
+          </Route>
+          <Route path="/autoglyphs">
+            <Autoglyphs />
           </Route>
           <Route path="/A">
             <A />
