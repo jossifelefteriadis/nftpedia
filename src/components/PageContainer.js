@@ -18,6 +18,7 @@ import Bag from "./words/Bag";
 import Block from "./words/Block";
 import Blockchain from "./words/Blockchain";
 import BAYC from "./words/BAYC";
+import Bot from "./words/Bot";
 
 import A from "./letter/A";
 import B from "./letter/B";
@@ -75,6 +76,9 @@ export default class PageContainer extends React.Component {
           </Route>
           <Route path="/bored-apes-yacht-club">
             <BAYC />
+          </Route>
+          <Route path="/bot">
+            <Bot />
           </Route>
           <Route path="/A">
             <A />
