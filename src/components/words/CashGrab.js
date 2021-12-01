@@ -9,7 +9,7 @@ const CashGrab = () => (
       är prissatt lite för högt.
       <br />
       <br />
-      Väldigt vanligt att kända personer eller influencers deltar i
+      Det är väldigt vanligt att kända personer eller influencers deltar i
       marknadsföringen av dessa projekt tills de säljs slut.
     </p>
   </section>

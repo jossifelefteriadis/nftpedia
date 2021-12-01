@@ -19,7 +19,7 @@ const ColdStorage = () => (
       <a href="https://www.ledger.com" target="_blank" rel="noreferrer">
         Ledger
       </a>
-      -{" "}
+      <br />-{" "}
       <a href="https://www.trezor.io" target="_blank" rel="noreferrer">
         Trezor
       </a>
