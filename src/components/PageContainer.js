@@ -20,6 +20,9 @@ import Blockchain from "./words/Blockchain";
 import BAYC from "./words/BAYC";
 import Bot from "./words/Bot";
 
+import CashGrab from "./words/CashGrab";
+import ColdStorage from "./words/ColdStorage";
+
 import A from "./letter/A";
 import B from "./letter/B";
 import C from "./letter/C";
@@ -79,6 +82,12 @@ export default class PageContainer extends React.Component {
           </Route>
           <Route path="/bot">
             <Bot />
+          </Route>
+          <Route path="/cash-grab">
+            <CashGrab />
+          </Route>
+          <Route path="/cold-storage">
+            <ColdStorage />
           </Route>
           <Route path="/A">
             <A />

@@ -6,19 +6,19 @@ const C = () => (
     <h1>C</h1>
     <br />
     <p className="letter--word">
-      <Link to="/CASH-GRAB">CASH GRAB</Link>
+      <Link to="/cash-grab">CASH GRAB</Link>
     </p>
     <p className="letter--word">
-      <Link to="/COLD-STORAGE">COLD STORAGE</Link>
+      <Link to="/cold-storage">COLD STORAGE</Link>
     </p>
     <p className="letter--word">
-      <Link to="/COLLAB-LAND">COLLAB.LAND (BOT)</Link>
+      <Link to="/collab-land">COLLAB.LAND (BOT)</Link>
     </p>
     <p className="letter--word">
-      <Link to="/CRYPTOCURRENCY-WALLET">CRYPTOCURRENCY WALLET</Link>
+      <Link to="/cryptocurrency-wallet">CRYPTOCURRENCY WALLET</Link>
     </p>
     <p className="letter--word">
-      <Link to="/CRYPTOPUNKS">CRYPTOPUNKS</Link>
+      <Link to="/cryptopunks">CRYPTOPUNKS</Link>
     </p>
   </section>
 );
