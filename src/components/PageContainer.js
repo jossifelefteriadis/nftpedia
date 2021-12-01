@@ -22,6 +22,9 @@ import Bot from "./words/Bot";
 
 import CashGrab from "./words/CashGrab";
 import ColdStorage from "./words/ColdStorage";
+import CollabLand from "./words/CollabLand";
+import CryptocurrencyWallet from "./words/CryptocurrencyWallet";
+import Cryptopunks from "./words/Cryptopunks";
 
 import A from "./letter/A";
 import B from "./letter/B";
@@ -88,6 +91,15 @@ export default class PageContainer extends React.Component {
           </Route>
           <Route path="/cold-storage">
             <ColdStorage />
+          </Route>
+          <Route path="/collab-land">
+            <CollabLand />
+          </Route>
+          <Route path="/cryptocurrency-wallet">
+            <CryptocurrencyWallet />
+          </Route>
+          <Route path="/cryptopunks">
+            <Cryptopunks />
           </Route>
           <Route path="/A">
             <A />
