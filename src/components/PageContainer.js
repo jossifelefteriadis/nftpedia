@@ -26,6 +26,12 @@ import CollabLand from "./words/CollabLand";
 import CryptocurrencyWallet from "./words/CryptocurrencyWallet";
 import Cryptopunks from "./words/Cryptopunks";
 
+import Decentraland from "./words/Decentraland";
+import Decentralized from "./words/Decentralized";
+import DiamondHands from "./words/DiamondHands";
+import Drop from "./words/Drop";
+import DuneAnalytics from "./words/DuneAnalytics";
+
 import A from "./letter/A";
 import B from "./letter/B";
 import C from "./letter/C";
@@ -100,6 +106,21 @@ export default class PageContainer extends React.Component {
           </Route>
           <Route path="/cryptopunks">
             <Cryptopunks />
+          </Route>
+          <Route path="/decentraland">
+            <Decentraland />
+          </Route>
+          <Route path="/decentralized">
+            <Decentralized />
+          </Route>
+          <Route path="/diamond-hands">
+            <DiamondHands />
+          </Route>
+          <Route path="/drop">
+            <Drop />
+          </Route>
+          <Route path="/dune-analytics">
+            <DuneAnalytics />
           </Route>
           <Route path="/A">
             <A />

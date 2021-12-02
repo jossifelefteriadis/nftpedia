@@ -6,19 +6,19 @@ const D = () => (
     <h1>D</h1>
     <br />
     <p className="letter--word">
-      <Link to="/DECENTRALAND">DECENTRALAND</Link>
+      <Link to="/decentraland">DECENTRALAND</Link>
     </p>
     <p className="letter--word">
-      <Link to="/DECENTRALIZED">DECENTRALIZED</Link>
+      <Link to="/decentralized">DECENTRALIZED</Link>
     </p>
     <p className="letter--word">
-      <Link to="/DIAMOND-HANDS">DIAMON HANDS</Link>
+      <Link to="/diamond-hands">DIAMON HANDS</Link>
     </p>
     <p className="letter--word">
-      <Link to="/DROP">DROP</Link>
+      <Link to="/drop">DROP</Link>
     </p>
     <p className="letter--word">
-      <Link to="/DUNE-ANALYTICS">DUNE ANALYTICS</Link>
+      <Link to="/dune-analytics">DUNE ANALYTICS</Link>
     </p>
   </section>
 );
