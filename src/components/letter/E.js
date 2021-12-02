@@ -6,13 +6,13 @@ const E = () => (
     <h1>E</h1>
     <br />
     <p className="letter--word">
-      <Link to="/ERC-721">ERC-721</Link>
+      <Link to="/erc-721">ERC-721</Link>
     </p>
     <p className="letter--word">
-      <Link to="/ETHER">ETHER</Link>
+      <Link to="/ether">ETHER</Link>
     </p>
     <p className="letter--word">
-      <Link to="/ETHERSCAN">ETHERSCAN</Link>
+      <Link to="/etherscan">ETHERSCAN</Link>
     </p>
   </section>
 );

@@ -32,6 +32,10 @@ import DiamondHands from "./words/DiamondHands";
 import Drop from "./words/Drop";
 import DuneAnalytics from "./words/DuneAnalytics";
 
+import Erc721 from "./words/Erc721";
+import Ether from "./words/Ether";
+import Etherscan from "./words/Etherscan";
+
 import A from "./letter/A";
 import B from "./letter/B";
 import C from "./letter/C";
@@ -121,6 +125,15 @@ export default class PageContainer extends React.Component {
           </Route>
           <Route path="/dune-analytics">
             <DuneAnalytics />
+          </Route>
+          <Route path="/erc-721">
+            <Erc721 />
+          </Route>
+          <Route path="/ether">
+            <Ether />
+          </Route>
+          <Route path="/etherscan">
+            <Etherscan />
           </Route>
           <Route path="/A">
             <A />
