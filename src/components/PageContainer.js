@@ -36,6 +36,8 @@ import Erc721 from "./words/Erc721";
 import Ether from "./words/Ether";
 import Etherscan from "./words/Etherscan";
 
+import FailedTransaction from "./words/FailedTransaction";
+
 import A from "./letter/A";
 import B from "./letter/B";
 import C from "./letter/C";
@@ -134,6 +136,9 @@ export default class PageContainer extends React.Component {
           </Route>
           <Route path="/etherscan">
             <Etherscan />
+          </Route>
+          <Route path="/failes-transaction">
+            <FailedTransaction />
           </Route>
           <Route path="/A">
             <A />

@@ -6,19 +6,19 @@ const F = () => (
     <h1>F</h1>
     <br />
     <p className="letter--word">
-      <Link to="/FAILED-TRANSACTION">FAILED TRANSACTION</Link>
+      <Link to="/failed-transaction">FAILED TRANSACTION</Link>
     </p>
     <p className="letter--word">
-      <Link to="/FLIP">FLIP</Link>
+      <Link to="/flip">FLIP</Link>
     </p>
     <p className="letter--word">
-      <Link to="/FLIPPER">FLIPPER</Link>
+      <Link to="/flipper">FLIPPER</Link>
     </p>
     <p className="letter--word">
-      <Link to="/FLOOR-PRICE">FLOOR PRICE</Link>
+      <Link to="/floor-price">FLOOR PRICE</Link>
     </p>
     <p className="letter--word">
-      <Link to="/FUD">FUD</Link>
+      <Link to="/fud">FUD</Link>
     </p>
   </section>
 );
