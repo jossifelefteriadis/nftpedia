@@ -141,7 +141,7 @@ export default class PageContainer extends React.Component {
           <Route path="/etherscan">
             <Etherscan />
           </Route>
-          <Route path="/failes-transaction">
+          <Route path="/failed-transaction">
             <FailedTransaction />
           </Route>
           <Route path="/flip">
