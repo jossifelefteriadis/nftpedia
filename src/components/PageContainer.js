@@ -37,6 +37,10 @@ import Ether from "./words/Ether";
 import Etherscan from "./words/Etherscan";
 
 import FailedTransaction from "./words/FailedTransaction";
+import Flip from "./words/Flip";
+import Flipper from "./words/Flipper";
+import FloorPrice from "./words/FloorPrice";
+import Fud from "./words/Fud";
 
 import A from "./letter/A";
 import B from "./letter/B";
@@ -139,6 +143,18 @@ export default class PageContainer extends React.Component {
           </Route>
           <Route path="/failes-transaction">
             <FailedTransaction />
+          </Route>
+          <Route path="/flip">
+            <Flip />
+          </Route>
+          <Route path="/flipper">
+            <Flipper />
+          </Route>
+          <Route path="/floor-price">
+            <FloorPrice />
+          </Route>
+          <Route path="/fud">
+            <Fud />
           </Route>
           <Route path="/A">
             <A />
