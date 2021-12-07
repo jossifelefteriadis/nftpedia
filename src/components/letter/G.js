@@ -6,16 +6,16 @@ const G = () => (
     <h1>G</h1>
     <br />
     <p className="letter--word">
-      <Link to="/GAS-FEES">GAS FEES</Link>
+      <Link to="/gas-fees">GAS FEES</Link>
     </p>
     <p className="letter--word">
-      <Link to="/GAS-WAR">GAS WAR</Link>
+      <Link to="/gas-war">GAS WAR</Link>
     </p>
     <p className="letter--word">
-      <Link to="/GMI">GMI (WAGMI / NGMI)</Link>
+      <Link to="/gmi">GMI (WAGMI / NGMI)</Link>
     </p>
     <p className="letter--word">
-      <Link to="/GWEI">GWEI</Link>
+      <Link to="/gwei">GWEI</Link>
     </p>
   </section>
 );

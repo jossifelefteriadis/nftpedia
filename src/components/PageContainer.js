@@ -42,6 +42,8 @@ import Flipper from "./words/Flipper";
 import FloorPrice from "./words/FloorPrice";
 import Fud from "./words/Fud";
 
+import GasFees from "./words/GasFees";
+
 import A from "./letter/A";
 import B from "./letter/B";
 import C from "./letter/C";
@@ -155,6 +157,9 @@ export default class PageContainer extends React.Component {
           </Route>
           <Route path="/fud">
             <Fud />
+          </Route>
+          <Route path="/gas-fees">
+            <GasFees />
           </Route>
           <Route path="/A">
             <A />
