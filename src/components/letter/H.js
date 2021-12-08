@@ -6,10 +6,10 @@ const H = () => (
     <h1>H</h1>
     <br />
     <p className="letter--word">
-      <Link to="/HASH">HASH</Link>
+      <Link to="/hash">HASH</Link>
     </p>
     <p className="letter--word">
-      <Link to="/HODL">HODL</Link>
+      <Link to="/hodl">HODL</Link>
     </p>
   </section>
 );

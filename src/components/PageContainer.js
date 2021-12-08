@@ -47,6 +47,9 @@ import GasWar from "./words/GasWar";
 import GMI from "./words/GMI";
 import GWEI from "./words/GWEI";
 
+import Hash from "./words/Hash";
+import Hodl from "./words/Hodl";
+
 import A from "./letter/A";
 import B from "./letter/B";
 import C from "./letter/C";
@@ -172,6 +175,12 @@ export default class PageContainer extends React.Component {
           </Route>
           <Route path="/gas-war">
             <GasWar />
+          </Route>
+          <Route path="/hash">
+            <Hash />
+          </Route>
+          <Route path="/hodl">
+            <Hodl />
           </Route>
           <Route path="/A">
             <A />
