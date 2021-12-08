@@ -6,7 +6,7 @@ const I = () => (
     <h1>I</h1>
     <br />
     <p className="letter--word">
-      <Link to="/IPFS">IPFS</Link>
+      <Link to="/ipfs">IPFS</Link>
     </p>
   </section>
 );

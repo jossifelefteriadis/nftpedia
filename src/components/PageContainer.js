@@ -50,6 +50,8 @@ import GWEI from "./words/GWEI";
 import Hash from "./words/Hash";
 import Hodl from "./words/Hodl";
 
+import IPFS from "./words/IPFS";
+
 import A from "./letter/A";
 import B from "./letter/B";
 import C from "./letter/C";
@@ -181,6 +183,9 @@ export default class PageContainer extends React.Component {
           </Route>
           <Route path="/hodl">
             <Hodl />
+          </Route>
+          <Route path="/ipfs">
+            <IPFS />
           </Route>
           <Route path="/A">
             <A />
