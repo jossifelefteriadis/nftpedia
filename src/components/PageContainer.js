@@ -43,6 +43,7 @@ import FloorPrice from "./words/FloorPrice";
 import Fud from "./words/Fud";
 
 import GasFees from "./words/GasFees";
+import GasWar from "./words/GasWar";
 
 import A from "./letter/A";
 import B from "./letter/B";
@@ -160,6 +161,9 @@ export default class PageContainer extends React.Component {
           </Route>
           <Route path="/gas-fees">
             <GasFees />
+          </Route>
+          <Route path="/gas-war">
+            <GasWar />
           </Route>
           <Route path="/A">
             <A />
