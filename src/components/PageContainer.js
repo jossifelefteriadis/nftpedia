@@ -44,6 +44,8 @@ import Fud from "./words/Fud";
 
 import GasFees from "./words/GasFees";
 import GasWar from "./words/GasWar";
+import GMI from "./words/GMI";
+import GWEI from "./words/GWEI";
 
 import A from "./letter/A";
 import B from "./letter/B";
@@ -161,6 +163,12 @@ export default class PageContainer extends React.Component {
           </Route>
           <Route path="/gas-fees">
             <GasFees />
+          </Route>
+          <Route path="/gmi">
+            <GMI />
+          </Route>
+          <Route path="/gwei">
+            <GWEI />
           </Route>
           <Route path="/gas-war">
             <GasWar />
