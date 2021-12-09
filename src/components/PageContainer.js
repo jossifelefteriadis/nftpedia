@@ -54,6 +54,13 @@ import IPFS from "./words/IPFS";
 
 import LowballOffer from "./words/LowballOffer";
 
+import Mainnet from "./words/Mainnet";
+import Marketplace from "./words/Marketplace";
+import Metamask from "./words/Metamask";
+import Metaverse from "./words/Metaverse";
+import Mint from "./words/Mint";
+import Mod from "./words/Mod";
+
 import A from "./letter/A";
 import B from "./letter/B";
 import C from "./letter/C";
@@ -191,6 +198,24 @@ export default class PageContainer extends React.Component {
           </Route>
           <Route path="/lowball-offer">
             <LowballOffer />
+          </Route>
+          <Route path="/mainnet">
+            <Mainnet />
+          </Route>
+          <Route path="/marketplace">
+            <Marketplace />
+          </Route>
+          <Route path="/metamask">
+            <Metamask />
+          </Route>
+          <Route path="/metaverse">
+            <Metaverse />
+          </Route>
+          <Route path="/mint">
+            <Mint />
+          </Route>
+          <Route path="/mod">
+            <Mod />
           </Route>
           <Route path="/A">
             <A />
