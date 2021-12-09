@@ -6,22 +6,22 @@ const M = () => (
     <h1>M</h1>
     <br />
     <p className="letter--word">
-      <Link to="/MAINNET">MAINNET</Link>
+      <Link to="/mainnet">MAINNET</Link>
     </p>
     <p className="letter--word">
-      <Link to="/MARKETPLACES">MARKETPLACES</Link>
+      <Link to="/marketplace">MARKETPLACES</Link>
     </p>
     <p className="letter--word">
-      <Link to="/METAMASK">METAMASK</Link>
+      <Link to="/metamask">METAMASK</Link>
     </p>
     <p className="letter--word">
-      <Link to="/METAVERSE">METAVERSE</Link>
+      <Link to="/metaverse">METAVERSE</Link>
     </p>
     <p className="letter--word">
-      <Link to="/MINT">MINT</Link>
+      <Link to="/mint">MINT</Link>
     </p>
     <p className="letter--word">
-      <Link to="/MOD">MOD</Link>
+      <Link to="/mod">MOD</Link>
     </p>
   </section>
 );
