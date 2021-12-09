@@ -6,7 +6,7 @@ const N = () => (
     <h1>N</h1>
     <br />
     <p className="letter--word">
-      <Link to="/NON-FUNGIBLE-TOKEN">NON-FUNGIBLE TOKEN</Link>
+      <Link to="/non-fungible-token">NON-FUNGIBLE TOKEN</Link>
     </p>
   </section>
 );

@@ -61,6 +61,8 @@ import Metaverse from "./words/Metaverse";
 import Mint from "./words/Mint";
 import Mod from "./words/Mod";
 
+import NonFungibleToken from "./words/NonFungibleToken";
+
 import A from "./letter/A";
 import B from "./letter/B";
 import C from "./letter/C";
@@ -216,6 +218,9 @@ export default class PageContainer extends React.Component {
           </Route>
           <Route path="/mod">
             <Mod />
+          </Route>
+          <Route path="/non-fungible-token">
+            <NonFungibleToken />
           </Route>
           <Route path="/A">
             <A />
