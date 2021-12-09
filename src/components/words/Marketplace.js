@@ -11,14 +11,20 @@ const Marketplace = () => (
       <br />
       <br />
       <b>OpenSea:</b> https://opensea.io/
+      <br />
       <b>Rarible:</b> https://rarible.com/
+      <br />
       <b>HeN:</b> https://www.hicetnunc.xyz/
       <br />
       <br />
       <b>NiftyGateway:</b> https://niftygateway.com/
+      <br />
       <b>Superrare:</b> https://superrare.com/
+      <br />
       <b>Maker's Place:</b> https://makersplace.com/
+      <br />
       <b>Foundation:</b> https://foundation.app/
+      <br />
     </p>
   </section>
 );
