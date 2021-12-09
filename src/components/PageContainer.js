@@ -52,6 +52,8 @@ import Hodl from "./words/Hodl";
 
 import IPFS from "./words/IPFS";
 
+import LowballOffer from "./words/LowballOffer";
+
 import A from "./letter/A";
 import B from "./letter/B";
 import C from "./letter/C";
@@ -186,6 +188,9 @@ export default class PageContainer extends React.Component {
           </Route>
           <Route path="/ipfs">
             <IPFS />
+          </Route>
+          <Route path="/lowball-offer">
+            <LowballOffer />
           </Route>
           <Route path="/A">
             <A />
