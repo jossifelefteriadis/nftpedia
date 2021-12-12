@@ -65,6 +65,10 @@ import NonFungibleToken from "./words/NonFungibleToken";
 
 import OpenSea from "./words/OpenSea";
 
+import P2E from "./words/P2E";
+import PaperHands from "./words/PaperHands";
+import PFP from "./words/PFP";
+
 import A from "./letter/A";
 import B from "./letter/B";
 import C from "./letter/C";
@@ -226,6 +230,15 @@ export default class PageContainer extends React.Component {
           </Route>
           <Route path="/open-sea">
             <OpenSea />
+          </Route>
+          <Route path="/p2e">
+            <P2E />
+          </Route>
+          <Route path="/paper-hands">
+            <PaperHands />
+          </Route>
+          <Route path="/pfp">
+            <PFP />
           </Route>
           <Route path="/A">
             <A />
