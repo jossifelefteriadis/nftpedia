@@ -68,6 +68,9 @@ import OpenSea from "./words/OpenSea";
 import P2E from "./words/P2E";
 import PaperHands from "./words/PaperHands";
 import PFP from "./words/PFP";
+import PreSale from "./words/PreSale";
+import Provenance from "./words/PFP";
+import PumpNDump from "./words/PumpNDump";
 
 import A from "./letter/A";
 import B from "./letter/B";
@@ -239,6 +242,15 @@ export default class PageContainer extends React.Component {
           </Route>
           <Route path="/pfp">
             <PFP />
+          </Route>
+          <Route path="/pre-sale">
+            <PreSale />
+          </Route>
+          <Route path="/provenance">
+            <Provenance />
+          </Route>
+          <Route path="/pump-n-dump">
+            <PumpNDump />
           </Route>
           <Route path="/A">
             <A />
