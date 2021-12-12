@@ -6,7 +6,7 @@ const O = () => (
     <h1>O</h1>
     <br />
     <p className="letter--word">
-      <Link to="/OPEN-SEA">OPEN SEA</Link>
+      <Link to="/open-sea">OPEN SEA</Link>
     </p>
   </section>
 );

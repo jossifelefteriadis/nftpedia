@@ -63,6 +63,8 @@ import Mod from "./words/Mod";
 
 import NonFungibleToken from "./words/NonFungibleToken";
 
+import OpenSea from "./words/OpenSea";
+
 import A from "./letter/A";
 import B from "./letter/B";
 import C from "./letter/C";
@@ -221,6 +223,9 @@ export default class PageContainer extends React.Component {
           </Route>
           <Route path="/non-fungible-token">
             <NonFungibleToken />
+          </Route>
+          <Route path="/open-sea">
+            <OpenSea />
           </Route>
           <Route path="/A">
             <A />
