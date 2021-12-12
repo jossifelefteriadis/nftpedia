@@ -6,22 +6,22 @@ const P = () => (
     <h1>P</h1>
     <br />
     <p className="letter--word">
-      <Link to="/P2E">P2E</Link>
+      <Link to="/p2e">P2E</Link>
     </p>
     <p className="letter--word">
-      <Link to="/PAPER-HANDS">PAPER HANDS</Link>
+      <Link to="/paper-hands">PAPER HANDS</Link>
     </p>
     <p className="letter--word">
-      <Link to="/PFP">PFP</Link>
+      <Link to="/pfp">PFP</Link>
     </p>
     <p className="letter--word">
-      <Link to="/PRE-SALE">PRE-SALE</Link>
+      <Link to="/pre-sale">PRE-SALE</Link>
     </p>
     <p className="letter--word">
-      <Link to="/PROVENANCE">PROVENANCE</Link>
+      <Link to="/provenance">PROVENANCE</Link>
     </p>
     <p className="letter--word">
-      <Link to="/PUMP-N-DUMP">PUMP 'N DUMP</Link>
+      <Link to="/pump-n-dump">PUMP 'N DUMP</Link>
     </p>
   </section>
 );
