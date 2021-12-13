@@ -6,19 +6,19 @@ const R = () => (
     <h1>R</h1>
     <br />
     <p className="letter--word">
-      <Link to="/RARIBLE">RARIBLE</Link>
+      <Link to="/rarible">RARIBLE</Link>
     </p>
     <p className="letter--word">
-      <Link to="/RARITY-TOOLS">RARITY TOOLS</Link>
+      <Link to="/rarity-tools">RARITY TOOLS</Link>
     </p>
     <p className="letter--word">
-      <Link to="/RINKEBY">RINKEBY</Link>
+      <Link to="/rinkeby">RINKEBY</Link>
     </p>
     <p className="letter--word">
-      <Link to="/ROPSTEN">ROPSTEN</Link>
+      <Link to="/ropsten">ROPSTEN</Link>
     </p>
     <p className="letter--word">
-      <Link to="/RUG-PULL">RUG PULL</Link>
+      <Link to="/rug-pull">RUG PULL</Link>
     </p>
   </section>
 );

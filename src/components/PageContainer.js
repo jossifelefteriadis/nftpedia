@@ -72,6 +72,12 @@ import PreSale from "./words/PreSale";
 import Provenance from "./words/PFP";
 import PumpNDump from "./words/PumpNDump";
 
+import Rarible from "./words/Rarible";
+import RarityTools from "./words/RarityTools";
+import Rinkeby from "./words/Rinkeby";
+import Ropsten from "./words/Ropsten";
+import RugPull from "./words/RugPull";
+
 import A from "./letter/A";
 import B from "./letter/B";
 import C from "./letter/C";
@@ -251,6 +257,21 @@ export default class PageContainer extends React.Component {
           </Route>
           <Route path="/pump-n-dump">
             <PumpNDump />
+          </Route>
+          <Route path="/rarible">
+            <Rarible />
+          </Route>
+          <Route path="/rarity-tools">
+            <RarityTools />
+          </Route>
+          <Route path="/rinkeby">
+            <Rinkeby />
+          </Route>
+          <Route path="/ropsten">
+            <Ropsten />
+          </Route>
+          <Route path="/rug-pull">
+            <RugPull />
           </Route>
           <Route path="/A">
             <A />
