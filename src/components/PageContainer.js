@@ -85,6 +85,9 @@ import SmartContract from "./words/SmartContract";
 import Solidity from "./words/Solidity";
 import SweepTheFloor from "./words/SweepTheFloor";
 
+import Testnet from "./words/Testnet";
+import Tezos from "./words/Tezos";
+
 import A from "./letter/A";
 import B from "./letter/B";
 import C from "./letter/C";
@@ -297,6 +300,12 @@ export default class PageContainer extends React.Component {
           </Route>
           <Route path="/sweep-the-floor">
             <SweepTheFloor />
+          </Route>
+          <Route path="/testnet">
+            <Testnet />
+          </Route>
+          <Route path="/tezos">
+            <Tezos />
           </Route>
           <Route path="/A">
             <A />

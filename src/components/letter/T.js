@@ -6,10 +6,10 @@ const T = () => (
     <h1>T</h1>
     <br />
     <p className="letter--word">
-      <Link to="/TESTNET">TESTNET</Link>
+      <Link to="/testnet">TESTNET</Link>
     </p>
     <p className="letter--word">
-      <Link to="/TEZOS">TEZOS</Link>
+      <Link to="/tezos">TEZOS</Link>
     </p>
   </section>
 );
