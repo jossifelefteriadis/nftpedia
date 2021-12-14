@@ -78,6 +78,13 @@ import Rinkeby from "./words/Rinkeby";
 import Ropsten from "./words/Ropsten";
 import RugPull from "./words/RugPull";
 
+import SeedPhrase from "./words/SeedPhrase";
+import SER from "./words/SER";
+import SHA256 from "./words/SHA256";
+import SmartContract from "./words/SmartContract";
+import Solidity from "./words/Solidity";
+import SweepTheFloor from "./words/SweepTheFloor";
+
 import A from "./letter/A";
 import B from "./letter/B";
 import C from "./letter/C";
@@ -272,6 +279,24 @@ export default class PageContainer extends React.Component {
           </Route>
           <Route path="/rug-pull">
             <RugPull />
+          </Route>
+          <Route path="/seed-phrase">
+            <SeedPhrase />
+          </Route>
+          <Route path="/ser">
+            <SER />
+          </Route>
+          <Route path="/sha-256">
+            <SHA256 />
+          </Route>
+          <Route path="/smart-contract">
+            <SmartContract />
+          </Route>
+          <Route path="/solidity">
+            <Solidity />
+          </Route>
+          <Route path="/sweep-the-floor">
+            <SweepTheFloor />
           </Route>
           <Route path="/A">
             <A />
