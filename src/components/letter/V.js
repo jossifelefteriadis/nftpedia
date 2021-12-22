@@ -6,7 +6,7 @@ const V = () => (
     <h1>V</h1>
     <br />
     <p className="letter--word">
-      <Link to="/VITALIK-BUTERIN">VITALIK BUTERIN</Link>
+      <Link to="/vitalik-buterin">VITALIK BUTERIN</Link>
     </p>
   </section>
 );
