@@ -6,7 +6,7 @@ const W = () => (
     <h1>W</h1>
     <br />
     <p className="letter--word">
-      <Link to="/WHALE">WHALE</Link>
+      <Link to="/whale">WHALE</Link>
     </p>
   </section>
 );

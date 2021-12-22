@@ -88,6 +88,10 @@ import SweepTheFloor from "./words/SweepTheFloor";
 import Testnet from "./words/Testnet";
 import Tezos from "./words/Tezos";
 
+import VitalikButerin from "./words/VitalikButerin";
+
+import Whale from "./words/Whale";
+
 import A from "./letter/A";
 import B from "./letter/B";
 import C from "./letter/C";
@@ -306,6 +310,12 @@ export default class PageContainer extends React.Component {
           </Route>
           <Route path="/tezos">
             <Tezos />
+          </Route>
+          <Route path="/vitalik-buterin">
+            <VitalikButerin />
+          </Route>
+          <Route path="/whale">
+            <Whale />
           </Route>
           <Route path="/A">
             <A />
