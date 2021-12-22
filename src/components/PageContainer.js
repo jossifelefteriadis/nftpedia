@@ -317,82 +317,83 @@ export default class PageContainer extends React.Component {
           <Route path="/whale">
             <Whale />
           </Route>
-          <Route path="/A">
+          <Route path="/a">
+            <Alphabet />
             <A />
           </Route>
-          <Route path="/B">
+          <Route path="/b">
             <B />
           </Route>
-          <Route path="/C">
+          <Route path="/c">
             <C />
           </Route>
-          <Route path="/D">
+          <Route path="/d">
             <D />
           </Route>
-          <Route path="/E">
+          <Route path="/e">
             <E />
           </Route>
-          <Route path="/F">
+          <Route path="/f">
             <F />
           </Route>
-          <Route path="/G">
+          <Route path="/g">
             <G />
           </Route>
-          <Route path="/H">
+          <Route path="/h">
             <H />
           </Route>
-          <Route path="/I">
+          <Route path="/i">
             <I />
           </Route>
-          <Route path="/J">
+          <Route path="/j">
             <J />
           </Route>
-          <Route path="/K">
+          <Route path="/k">
             <K />
           </Route>
-          <Route path="/L">
+          <Route path="/l">
             <L />
           </Route>
-          <Route path="/M">
+          <Route path="/m">
             <M />
           </Route>
-          <Route path="/N">
+          <Route path="/n">
             <N />
           </Route>
-          <Route path="/O">
+          <Route path="/o">
             <O />
           </Route>
-          <Route path="/P">
+          <Route path="/p">
             <P />
           </Route>
-          <Route path="/Q">
+          <Route path="/q">
             <Q />
           </Route>
-          <Route path="/R">
+          <Route path="/r">
             <R />
           </Route>
-          <Route path="/S">
+          <Route path="/s">
             <S />
           </Route>
-          <Route path="/T">
+          <Route path="/t">
             <T />
           </Route>
-          <Route path="/U">
+          <Route path="/u">
             <U />
           </Route>
-          <Route path="/V">
+          <Route path="/v">
             <V />
           </Route>
-          <Route path="/W">
+          <Route path="/w">
             <W />
           </Route>
-          <Route path="/X">
+          <Route path="/x">
             <X />
           </Route>
-          <Route path="/Y">
+          <Route path="/y">
             <Y />
           </Route>
-          <Route path="/Z">
+          <Route path="/z">
             <Z />
           </Route>
           <Route path="/omoss">
