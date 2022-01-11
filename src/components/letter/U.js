@@ -3,6 +3,8 @@ import React from "react";
 
 const U = () => (
   <section className="words">
+    <br />
+    <br />
     <h1>U</h1>
     <br />
   </section>

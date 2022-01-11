@@ -3,6 +3,8 @@ import React from "react";
 
 const Y = () => (
   <section className="words">
+    <br />
+    <br />
     <h1>Y</h1>
     <br />
   </section>

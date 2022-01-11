@@ -3,6 +3,8 @@ import { Link } from "react-router-dom";
 
 const F = () => (
   <section className="words">
+    <br />
+    <br />
     <h1>F</h1>
     <br />
     <p className="letter--word">
