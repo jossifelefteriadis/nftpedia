@@ -319,81 +319,132 @@ export default class PageContainer extends React.Component {
           </Route>
           <Route path="/a">
             <Alphabet />
+            <Dropdown />
             <A />
           </Route>
           <Route path="/b">
+            <Alphabet />
+            <Dropdown />
             <B />
           </Route>
           <Route path="/c">
+            <Alphabet />
+            <Dropdown />
             <C />
           </Route>
           <Route path="/d">
+            <Alphabet />
+            <Dropdown />
             <D />
           </Route>
           <Route path="/e">
+            <Alphabet />
+            <Dropdown />
             <E />
           </Route>
           <Route path="/f">
+            <Alphabet />
+            <Dropdown />
             <F />
           </Route>
           <Route path="/g">
+            <Alphabet />
+            <Dropdown />
             <G />
           </Route>
           <Route path="/h">
+            <Alphabet />
+            <Dropdown />
             <H />
           </Route>
           <Route path="/i">
+            <Alphabet />
+            <Dropdown />
             <I />
           </Route>
           <Route path="/j">
+            <Alphabet />
+            <Dropdown />
             <J />
           </Route>
           <Route path="/k">
+            <Alphabet />
+            <Dropdown />
             <K />
           </Route>
           <Route path="/l">
+            <Alphabet />
+            <Dropdown />
             <L />
           </Route>
           <Route path="/m">
+            <Alphabet />
+            <Dropdown />
             <M />
           </Route>
           <Route path="/n">
+            <Alphabet />
+            <Dropdown />
             <N />
           </Route>
           <Route path="/o">
+            <Alphabet />
+            <Dropdown />
             <O />
           </Route>
           <Route path="/p">
+            <Alphabet />
+            <Dropdown />
             <P />
           </Route>
           <Route path="/q">
+            <Alphabet />
+            <Dropdown />
             <Q />
           </Route>
           <Route path="/r">
+            <Alphabet />
+            <Dropdown />
             <R />
           </Route>
           <Route path="/s">
+            <Alphabet />
+            <Dropdown />
             <S />
           </Route>
           <Route path="/t">
+            <Alphabet />
+            <Dropdown />
             <T />
           </Route>
           <Route path="/u">
+            <Alphabet />
+            <Dropdown />
             <U />
           </Route>
           <Route path="/v">
+            <Alphabet />
+            <Dropdown />
             <V />
           </Route>
           <Route path="/w">
+            <Alphabet />
+            <Dropdown />
             <W />
           </Route>
           <Route path="/x">
+            <Alphabet />
+            <Dropdown />
             <X />
           </Route>
           <Route path="/y">
+            <Alphabet />
+            <Dropdown />
             <Y />
           </Route>
           <Route path="/z">
+            <Alphabet />
+            <Dropdown />
             <Z />
           </Route>
           <Route path="/omoss">
