@@ -5,6 +5,7 @@ const A = () => (
   <section className="words">
     <h1>A</h1>
     <br />
+    <br />
     <p className="letter--word">
       <Link to="/airdrop">AIRDROP</Link>
     </p>
