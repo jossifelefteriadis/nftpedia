@@ -1,5 +1,6 @@
 import React from "react";
 import { Route, Switch } from "react-router-dom";
+import { Helmet } from "react-helmet";
 // , Link, Switch
 
 import Alphabet from "./Alphabet";
@@ -123,6 +124,13 @@ export default class PageContainer extends React.Component {
   render() {
     return (
       <section className="pagecontainer">
+        <Helmet>
+          <title>NFTPEDIA - Din främsta NFT källa på nätet</title>
+          <meta
+            name="description"
+            content="På NFTPEDIA har du beskrivningar på diverse NFT begrepp som är bra att hålla koll på. Vårt mål är att vara din främsta NFT källa på nätet."
+          />
+        </Helmet>
         <Switch>
           {/* <Alphabet /> */}
           <Route path="/airdrop">
