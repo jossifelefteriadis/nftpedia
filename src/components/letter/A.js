@@ -3,8 +3,8 @@ import { Link } from "react-router-dom";
 
 const A = () => (
   <section className="words">
-    <h1>A</h1>
     <br />
+    <h1>A</h1>
     <br />
     <p className="letter--word">
       <Link to="/airdrop">AIRDROP</Link>
