@@ -1,7 +1,16 @@
 import React from "react";
+import { Helmet } from "react-helmet";
 
 const About = () => (
   <section className="about">
+    <Helmet>
+      <title>NFTPEDIA - Din främsta NFT källa på nätet</title>
+      <meta
+        name="description"
+        content="På NFTPEDIA har du beskrivningar på diverse NFT begrepp som är bra att hålla koll på. Vårt mål är att vara din främsta NFT källa på nätet.
+            NFTPEDIA startades eftersom efterfrågan på NFT (non-fungible-token) har ökat och vi ville skapa en trovärdig källa med beskrivningar och förklaringar inom NFT-världen."
+      />
+    </Helmet>
     <h2 className="about__title">OM NFTPEDIA</h2>
     <p>
       NFTPEDIA skapades eftersom efterfrågan på NFT (non-fungible token) har
